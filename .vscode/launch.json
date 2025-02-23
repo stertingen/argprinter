@@ -18,6 +18,21 @@
                 "trace": true,
                 "traceResponse": true
             }
+        },
+        {
+            "name": "(Windows) Launch target",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [
+                "2022-01-03T13:37:42+02:00"
+            ],
+            "cwd": "${workspaceFolder}",
+            "logging": {
+                "engineLogging": true,
+                "trace": true,
+                "traceResponse": true
+            }
         }
     ]
 }
